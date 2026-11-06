@@ -13,7 +13,7 @@ Using issues creates a large amount of noise and results in real issues getting 
 # Features
 - Null safety
 - Built on [QR - Dart](https://github.com/kevmoo/qr.dart)
-- Automatic QR code version/type detection or manual entry 
+- Automatic QR code version/type detection or manual entry
 - Supports QR code versions 1 - 40
 - Error correction / redundancy
 - Configurable output size, padding, background and foreground colors
@@ -34,7 +34,7 @@ dependencies:
 ```
 
 **Note**: If you're using the Flutter `master` channel, if you encounter build issues, or want to try the latest and greatest then you should use the `master` branch and not a specific release version. To do so, use the following configuration in your `pubspec.yaml`:
- 
+
 ```yaml
 dependencies:
   qr_flutter:
@@ -85,14 +85,14 @@ Depending on your data requirements you may want to tweak the QR code output. Th
 | `borderRadius`            | double               | Setting corner rounding for shape types `QrEyeShape.square`, `QrDataModuleShape.square`, `EmbeddedImageShape.square`. Set in appropriate styles.                                                    |
 | `roundedOutsideCorners`   | bool                 | If true, the outer corners of the data are rounded. Set to `QrDataModuleStyle`. Rounded to `borderRadius` by default. Only `QrDataModuleShape.square`.                                              |
 | `outsideBorderRadius`     | double               | It is set if the outer rounding `outsideBorderRadius` should differ from the inner one `borderRadius`. No more than `borderRadius`. Only `QrDataModuleShape.square`                                 |
-| `gradient`                | Gradient             | Changing the solid color of the code to a gradient, e.g. `LinearGradient`.                                                                                                                          | 
+| `gradient`                | Gradient             | Changing the solid color of the code to a gradient, e.g. `LinearGradient`.                                                                                                                          |
 | `safeArea`                | bool                 | If true, data is hidden behind the `embeddedImage`. Set to `QrEmbeddedImageStyle`.                                                                                                                  |
 | `safeAreaMultiplier`      | double               | Multiplier `safeArea` size.                                                                                                                                                                         |
 
 # Examples
 
 There is a simple, working, example Flutter app in the `/example` directory. You can use it to play with all
-the options. 
+the options.
 
 Also, the following examples give you a quick overview on how to use the library.
 
