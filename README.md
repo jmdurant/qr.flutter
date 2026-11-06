@@ -1,3 +1,5 @@
+> Maintenance fork: see [MAINTENANCE.md](MAINTENANCE.md) for adopted upstream patches, validation and integration policy. Original authors and BSD license are preserved.
+
 <img src="https://storage.googleapis.com/product-logos/logo_qr_flutter.png" align="center" width="200">
 
 QR.Flutter is a Flutter library for simple and fast QR code rendering via a Widget or custom painter.

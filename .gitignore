@@ -12,3 +12,6 @@ packages
 .dart_tool
 pubspec.lock
 .temp
+# Generated Flutter test and example outputs
+test/failures/
+example/ios/Flutter/ephemeral/
